@@ -1,0 +1,12 @@
+#!/bin/sh
+echo
+for i in p t k y d
+do
+  for j in p t k y d
+  do
+      echo -n $i $j: 
+      perl fsearch.pl "$i v.. $j "
+  done
+
+echo
+done

@@ -1,0 +1,226 @@
+#!/bin/sh
+echo
+echo "CV(C)"
+perl msearch.pl "^(C+)V(C*)$" | grep items
+echo
+echo "Ca(C)"
+perl msearch.pl "^(C+)a(C*)$" | grep items
+echo
+echo "Ce(C)"
+perl msearch.pl "^(C+)e(C*)$" | grep items
+echo
+echo "Ci(C)"
+perl msearch.pl "^(C+)i(C*)$" | grep items
+echo
+echo "Co(C)"
+perl msearch.pl "^(C+)o(C*)$" | grep items
+echo
+echo "Cu(C)"
+perl msearch.pl "^(C+)u(C*)$" | grep items
+echo
+echo "CE(C)"
+perl msearch.pl "^(C+)E(C*)$" | grep items
+echo
+echo "CO(C)"
+perl msearch.pl "^(C+)O(C*)$" | grep items
+echo
+echo "CU(C)"
+perl msearch.pl "^(C+)U(C*)$" | grep items
+echo
+echo
+echo "CaCV(C)"
+perl msearch.pl "^(C+)a(C+)V(C*)$" | grep items
+echo
+echo "CaCa(C)"
+perl msearch.pl "^(C+)a(C+)a(C*)$" | grep items
+echo
+echo "CaCe(C)"
+perl msearch.pl "^(C+)a(C+)e(C*)$" | grep items
+echo
+echo "CaCi(C)"
+perl msearch.pl "^(C+)a(C+)i(C*)$" | grep items
+echo
+echo "CaCo(C)"
+perl msearch.pl "^(C+)a(C+)o(C*)$" | grep items
+echo
+echo "CaCu(C)"
+perl msearch.pl "^(C+)a(C+)u(C*)$" | grep items
+echo
+echo "CaCE(C)"
+perl msearch.pl "^(C+)a(C+)E(C*)$" | grep items
+echo
+echo "CaCO(C)"
+perl msearch.pl "^(C+)a(C+)O(C*)$" | grep items
+echo
+echo "CaCU(C)"
+perl msearch.pl "^(C+)a(C+)U(C*)$" | grep items
+echo
+echo
+echo "CeCV(C)"
+perl msearch.pl "^(C+)e(C+)V(C*)$" | grep items
+echo
+echo "CeCa(C)"
+perl msearch.pl "^(C+)e(C+)a(C*)$" | grep items
+echo
+echo "CeCe(C)"
+perl msearch.pl "^(C+)e(C+)e(C*)$" | grep items
+echo
+echo "CeCi(C)"
+perl msearch.pl "^(C+)e(C+)i(C*)$" | grep items
+echo
+echo "CeCo(C)"
+perl msearch.pl "^(C+)e(C+)o(C*)$" | grep items
+echo
+echo "CeCu(C)"
+perl msearch.pl "^(C+)e(C+)u(C*)$" | grep items
+echo
+echo "CeCE(C)"
+perl msearch.pl "^(C+)e(C+)E(C*)$" | grep items
+echo
+echo "CeCO(C)"
+perl msearch.pl "^(C+)e(C+)O(C*)$" | grep items
+echo
+echo "CeCU(C)"
+perl msearch.pl "^(C+)e(C+)U(C*)$" | grep items
+echo
+echo
+echo "CiCV(C)"
+perl msearch.pl "^(C+)i(C+)V(C*)$" | grep items
+echo
+echo "CiCa(C)"
+perl msearch.pl "^(C+)i(C+)a(C*)$" | grep items
+echo
+echo "CiCe(C)"
+perl msearch.pl "^(C+)i(C+)e(C*)$" | grep items
+echo
+echo "CiCi(C)"
+perl msearch.pl "^(C+)i(C+)i(C*)$" | grep items
+echo
+echo "CiCo(C)"
+perl msearch.pl "^(C+)i(C+)o(C*)$" | grep items
+echo
+echo "CiCu(C)"
+perl msearch.pl "^(C+)i(C+)u(C*)$" | grep items
+echo
+echo "CiCE(C)"
+perl msearch.pl "^(C+)i(C+)E(C*)$" | grep items
+echo
+echo "CiCO(C)"
+perl msearch.pl "^(C+)i(C+)O(C*)$" | grep items
+echo
+echo "CiCU(C)"
+perl msearch.pl "^(C+)i(C+)U(C*)$" | grep items
+echo
+echo
+echo "CoCV(C)"
+perl msearch.pl "^(C+)o(C+)V(C*)$" | grep items
+echo
+echo "CoCa(C)"
+perl msearch.pl "^(C+)o(C+)a(C*)$" | grep items
+echo
+echo "CoCe(C)"
+perl msearch.pl "^(C+)o(C+)e(C*)$" | grep items
+echo
+echo "CoCi(C)"
+perl msearch.pl "^(C+)o(C+)i(C*)$" | grep items
+echo
+echo "CoCo(C)"
+perl msearch.pl "^(C+)o(C+)o(C*)$" | grep items
+echo
+echo "CoCu(C)"
+perl msearch.pl "^(C+)o(C+)u(C*)$" | grep items
+echo
+echo "CoCE(C)"
+perl msearch.pl "^(C+)o(C+)E(C*)$" | grep items
+echo
+echo "CoCO(C)"
+perl msearch.pl "^(C+)o(C+)O(C*)$" | grep items
+echo
+echo "CoCU(C)"
+perl msearch.pl "^(C+)o(C+)U(C*)$" | grep items
+echo
+echo
+echo "CuCV(C)"
+perl msearch.pl "^(C+)u(C+)V(C*)$" | grep items
+echo
+echo "CuCa(C)"
+perl msearch.pl "^(C+)u(C+)a(C*)$" | grep items
+echo
+echo "CuCe(C)"
+perl msearch.pl "^(C+)u(C+)e(C*)$" | grep items
+echo
+echo "CuCi(C)"
+perl msearch.pl "^(C+)u(C+)i(C*)$" | grep items
+echo
+echo "CuCo(C)"
+perl msearch.pl "^(C+)u(C+)o(C*)$" | grep items
+echo
+echo "CuCu(C)"
+perl msearch.pl "^(C+)u(C+)u(C*)$" | grep items
+echo
+echo "CuCE(C)"
+perl msearch.pl "^(C+)u(C+)E(C*)$" | grep items
+echo
+echo "CuCO(C)"
+perl msearch.pl "^(C+)u(C+)O(C*)$" | grep items
+echo
+echo "CuCU(C)"
+perl msearch.pl "^(C+)u(C+)U(C*)$" | grep items
+echo
+echo
+echo "CECV(C)"
+perl msearch.pl "^(C+)E(C+)V(C*)$" | grep items
+echo
+echo "CECa(C)"
+perl msearch.pl "^(C+)E(C+)a(C*)$" | grep items
+echo
+echo "CECe(C)"
+perl msearch.pl "^(C+)E(C+)e(C*)$" | grep items
+echo
+echo "CECi(C)"
+perl msearch.pl "^(C+)E(C+)i(C*)$" | grep items
+echo
+echo "CECo(C)"
+perl msearch.pl "^(C+)E(C+)o(C*)$" | grep items
+echo
+echo "CECu(C)"
+perl msearch.pl "^(C+)E(C+)u(C*)$" | grep items
+echo
+echo "CECE(C)"
+perl msearch.pl "^(C+)E(C+)E(C*)$" | grep items
+echo
+echo "CECO(C)"
+perl msearch.pl "^(C+)E(C+)O(C*)$" | grep items
+echo
+echo "CECU(C)"
+perl msearch.pl "^(C+)E(C+)U(C*)$" | grep items
+echo
+echo
+echo "COCV(C)"
+perl msearch.pl "^(C+)O(C+)V(C*)$" | grep items
+echo
+echo "COCa(C)"
+perl msearch.pl "^(C+)O(C+)a(C*)$" | grep items
+echo
+echo "COCe(C)"
+perl msearch.pl "^(C+)O(C+)e(C*)$" | grep items
+echo
+echo "COCi(C)"
+perl msearch.pl "^(C+)O(C+)i(C*)$" | grep items
+echo
+echo "COCo(C)"
+perl msearch.pl "^(C+)O(C+)o(C*)$" | grep items
+echo
+echo "COCu(C)"
+perl msearch.pl "^(C+)O(C+)u(C*)$" | grep items
+echo
+echo "COCE(C)"
+perl msearch.pl "^(C+)O(C+)E(C*)$" | grep items
+echo
+echo "COCO(C)"
+perl msearch.pl "^(C+)O(C+)O(C*)$" | grep items
+echo
+echo "COCU(C)"
+perl msearch.pl "^(C+)O(C+)U(C*)$" | grep items
+
+

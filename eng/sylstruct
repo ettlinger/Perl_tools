@@ -1,0 +1,27 @@
+#!/bin/sh
+echo
+echo -n V:
+      perl fsearch.pl "^v..(\s)[1..9]"
+echo -n CV:
+      perl fsearch.pl "^c(.)?(\s)v..(\s)[1..9]"
+echo -n CCV:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)v..(\s)[1..9]"
+echo -n CCCV:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)c(.)?v..(\s)[1..9]"
+echo -n VC:
+      perl fsearch.pl "^v..(\s)c(.)?(\s)[1..9]"
+echo -n CVC:
+      perl fsearch.pl "^c(.)?(\s)v..(\s)c(.)?(\s)[1..9]"
+echo -n CCVC:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)v..(\s)c(.)?(\s)[1..9]"
+echo -n CCCVC:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)c(.)?v..(\s)c(.)?(\s)[1..9]"
+echo -n VCC:
+      perl fsearch.pl "^v..(\s)c(.)?(\s)c(.)?(\s)[1..9]"
+echo -n CVCC:
+      perl fsearch.pl "^c(.)?(\s)v..(\s)c(.)?(\s)c(.)?(\s)[1..9]"
+echo -n CCVCC:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)v..(\s)c(.)?(\s)c(.)?(\s)[1..9]"
+echo -n CCCVCC:
+      perl fsearch.pl "^c(.)?(\s)c(.)?(\s)c(.)?(\s)v..(\s)c(.)?(\s)c(.)?(\s)[1..9]"
+echo

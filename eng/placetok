@@ -1,0 +1,12 @@
+#!/bin/sh
+echo
+for i in p k t y d
+do
+  for j in p k t y d
+  do
+      echo -n $i $j: 
+      perl typsearch.pl "$i v.. $j "
+  done
+
+echo
+done

@@ -1,0 +1,12 @@
+#!/bin/sh
+echo
+  for j in a aa e ee E EE i ii o oo O OO u uu
+  do
+    for k in l m n N p q t w y
+    do
+      echo "$j$k: \c"
+      perl ksearch.pl "(C|^)$j$k$" | grep items
+      echo
+    done
+  done
+

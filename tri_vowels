@@ -1,0 +1,14 @@
+#!/bin/sh
+echo
+for i in a e i o u E O U
+do
+  for j in a e i o u E O U
+  do
+    for k in a e i o u E O U
+    do
+      echo -n $i $j $k: 
+      perl msearch.pl "^(C+)$i(C+)$j(C+)$k(C*)$" | grep items
+    done
+  done
+
+done

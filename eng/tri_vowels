@@ -1,0 +1,16 @@
+#!/bin/sh
+echo
+for i in AA AH AE AO AY EY EH ER IH IY OW OY UW UH
+do
+echo "$i"
+  for j in AA AH AE AO AY EY EH ER IH IY OW OY UW UH
+  do
+#    for k in AY IY EH AA EH IH ER OW UW AO
+#    do
+#      echo -n $i $j $k: 
+      perl esearch.pl "^(C*)(\s*)$i.(\s)C+(\s)$j.(\s*)(C*)$" 
+#    done
+  done
+
+echo
+done

@@ -1,0 +1,15 @@
+#!/bin/sh
+echo
+for i in V Z
+do
+  for j in B D F G H JH K L M N P R S T V W Z SH ZH TH DH CH
+  do
+#    for k in AY IY EH AA EH IH ER OW UW AO
+#    do
+      echo -n $i $j: 
+      perl esearch.pl "^($i)(\s)($j)"
+#    done
+  done
+
+echo
+done

@@ -1,0 +1,8 @@
+#!/bin/sh
+echo
+for i in a e i o u E O U
+do
+      echo "$i C: \c"
+      perl msearch.pl "0.*$i$" | grep items
+echo
+done
